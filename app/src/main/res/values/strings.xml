@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickScan</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="scanner">Scanner</string>
+    <string name="upgrade_to_pro">Upgrade to PRO</string>
+    <string name="pro">PRO</string>
+    <string name="unlock_pro_features">Unlock all premium features</string>
+    
+    <!-- Features -->
+    <string name="unlimited_history">Unlimited History</string>
+    <string name="qr_generator">QR Code Generator</string>
+    <string name="export_csv">Export to CSV</string>
+    <string name="app_lock">App Lock</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="no_ads">No Ads</string>
+    
+    <!-- Actions -->
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="clear_all">Clear All</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="open">Open</string>
+    
+    <!-- Scan Types -->
+    <string name="url">URL</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="sms">SMS</string>
+    <string name="wifi">WiFi</string>
+    <string name="text">Text</string>
+    <string name="contact">Contact</string>
+    
+    <!-- Messages -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="scan_successful">Scan successful</string>
+    <string name="camera_permission_required">Camera permission is required to scan codes</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="no_history">No History</string>
+    <string name="history_empty_message">Your scan history will appear here</string>
+    
+    <!-- Settings -->
+    <string name="vibrate_on_scan">Vibrate on Scan</string>
+    <string name="sound_on_scan">Sound on Scan</string>
+    <string name="enable_biometric">Enable Biometric Authentication</string>
+    
+    <!-- Billing -->
+    <string name="subscribe_now">Subscribe Now</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="per_year">per year</string>
+    <string name="billing_terms">• Payment will be charged to your Google Play account\n• Subscription auto-renews unless cancelled 24 hours before period ends\n• Manage subscriptions in Google Play Store</string>
+    
+    <!-- Pro Lock -->
+    <string name="enter_pin">Enter PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="unlock">Unlock</string>
+    <string name="use_biometric">Use Biometric</string>
+    
+    <!-- About -->
+    <string name="version">Version</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+</resources>
