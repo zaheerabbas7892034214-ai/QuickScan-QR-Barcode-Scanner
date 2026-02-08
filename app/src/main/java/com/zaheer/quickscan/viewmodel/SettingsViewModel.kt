@@ -61,9 +61,9 @@ class SettingsViewModel(
         }
     }
     
-    fun setPinCode(pin: String?) {
+    fun setPinCode(pinOrNull: String?) {
         viewModelScope.launch {
-            settingsRepository.setPinCode(pin)
+            settingsRepository.setPinCode(pinOrNull)
         }
     }
 }

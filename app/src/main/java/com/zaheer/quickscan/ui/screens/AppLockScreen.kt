@@ -35,7 +35,7 @@ fun AppLockScreen(
     var errorMessage by remember { mutableStateOf("") }
     
     val useBiometric by viewModel.useBiometric.collectAsState()
-    val savedPin = produceState<String?>(initialValue = null) {
+    val savedPinState = produceState<String?>(initialValue = null) {
         value = viewModel.pinCode.first()
     }
     
@@ -154,7 +154,7 @@ fun AppLockScreen(
                             }
                         }
                     } else {
-                        if (pin == savedPin.value) {
+                        if (pin == savedPinState.value) {
                             onUnlockSuccess()
                         } else {
                             showError = true
